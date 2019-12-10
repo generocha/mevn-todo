@@ -2,15 +2,22 @@
 This is a simple todo app built on a MEVN stack(MongoDB, Express.js, Vue.js and Node.js). The app connects to a MonogoDB on MongoDB Atlas. You will need to edit the MongoDB connection string in server/routes/api/posts.js to your own.
 
 ## Instructions 
-First clone this repository.
+1. Make sure you already have nodejs & npm installed in your system.
 
-git clone https://github.com/generocha/mevn-todo.git
+`nvm  --version`
 
-Install dependencies. Make sure you already have nodejs & npm installed in your system.
+`node --version`
 
-nvm  --version
+2. Check if git is installed
+`git --version`
 
-node --version
+3. clone this repository.
+
+`git clone https://github.com/generocha/mevn-todo.git`
+
+4. Install dependencies. 
+
+`$ npm install # or yarn`
 
 ## App Info
 
