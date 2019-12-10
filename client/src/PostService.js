@@ -1,6 +1,7 @@
 import axios from 'axios'
-
-const url = 'http://localhost:5000/api/posts/';
+const pathArray = location.host.split(':');
+const ip = pathArray[0];
+const url ='http://' + ip + ':5000/api/posts/';
 
 class PostSerivce {
     // Get Posts
