@@ -65,4 +65,8 @@ div.post { position: relative; border: 1px solid #5bd658; background-color: 3bcf
 div.created-at { position: absolute; top: 0; left: 0; padding: 5px 15px 5px 15px; background-color: darkgreen; }
 
 p.text { font-size: 22px; font-weight: 700; margin-bottom: 0; }
+
+input { padding: 1em 2em;font-size: .8em;text-align: center;margin: 1em; }
+
+button { padding: 1em 2em; }
 </style>
